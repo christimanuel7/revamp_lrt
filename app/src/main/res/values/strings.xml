@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LRT Jakarta</string>
+    <string name="toolbar_name">LRT Jakarta</string>
+    <string name="slogan">moving people, connecting communities</string>
+    <string name="menu_beranda">Beranda</string>
+    <string name="menu_rute">Rute</string>
+    <string name="menu_jadwal">Jadwal</string>
+    <string name="menu_tentang">Tentang Kami</string>
+    <string name="menu_hubungi">Hubungi Kami</string>
+    <string name="informasi">Informasi</string>
+
+    <string name="navigation_open">Open Navigation drawer</string>
+    <string name="navigation_close">Close Navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
