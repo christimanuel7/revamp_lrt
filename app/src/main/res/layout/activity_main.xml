@@ -15,32 +15,29 @@
         android:id="@+id/navigation_view"
         app:headerLayout="@layout/header_menu"
         app:menu="@menu/navigation_menu"
-        android:layout_gravity="start" />
+        android:layout_gravity="start"
+        app:itemTextAppearance="@style/PoppinsTextViewStyle"
+        app:itemIconTint="@color/toolbar_color"
+        app:itemTextColor="@color/black"
+        />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/toolbar_color"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-            <TextView
-                android:id="@+id/toolbar_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:fontFamily="@font/poppins_semibolditalic"
-                android:textSize="20sp"
-                android:text="@string/toolbar_name"
-                android:textColor="@color/white"
-                />
-
-        </androidx.appcompat.widget.Toolbar>
-
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            app:title="@string/toolbar_name"
+            app:titleTextAppearance="@style/PoppinsItalicTextViewStyle"/>
     </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
