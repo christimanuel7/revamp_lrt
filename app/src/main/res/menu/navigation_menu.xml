@@ -12,6 +12,10 @@
             android:icon="@drawable/ic_baseline_map_24"
             android:title="@string/menu_rute" />
 
+        <item android:id="@+id/menu_stasiun"
+            android:icon="@drawable/ic_baseline_train_24"
+            android:title="@string/menu_stasiun" />
+
         <item android:id="@+id/menu_jadwal"
             android:icon="@drawable/ic_baseline_calendar_today_24"
             android:title="@string/menu_jadwal" />

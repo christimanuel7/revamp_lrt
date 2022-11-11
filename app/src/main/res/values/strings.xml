@@ -4,6 +4,7 @@
     <string name="slogan">moving people, connecting communities</string>
     <string name="menu_beranda">Beranda</string>
     <string name="menu_rute">Rute</string>
+    <string name="menu_stasiun">Stasiun</string>
     <string name="menu_jadwal">Jadwal</string>
     <string name="menu_tentang">Tentang Kami</string>
     <string name="menu_hubungi">Hubungi Kami</string>
@@ -13,4 +14,5 @@
     <string name="navigation_close">Close Navigation drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="img_banner">Banner Promosi</string>
 </resources>
