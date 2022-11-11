@@ -15,17 +15,110 @@
         android:contentDescription="@string/img_banner"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingVertical="24dp"
+            android:layout_weight="3"
+            android:text="@string/menu_rute"
+            android:textAllCaps="false"
+            android:drawableTop="@drawable/ic_baseline_map_24"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="20sp"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/buttonradius"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingVertical="24dp"
+            android:layout_weight="3"
+            android:text="@string/menu_stasiun"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:drawableTop="@drawable/ic_baseline_train_24"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonradius"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingVertical="24dp"
+            android:layout_weight="3"
+            android:text="@string/menu_jadwal"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:drawableTop="@drawable/ic_baseline_calendar_today_24"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonradius"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:weightSum="10"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Berita"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:text="Lainnya"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
     />
-
-
-
-
 </LinearLayout>
