@@ -15,4 +15,10 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="img_banner">Banner Promosi</string>
+
+    <string name="judul_berita1">Kementerian PPPA-DKI Luncurkan Pusat Panggilan CARLA</string>
+    <string name="judul_berita2">LRT Jakarta Canangkan Komitmen Transportasi Ramah Perempuan dan Anak</string>
+    <string name="judul_berita3">Kementerian PPPA Apresiasi DKI Wujudkan Kelurahan Ramah Perempuan</string>
+
+    <string name="btn_baca">BACA</string>
 </resources>

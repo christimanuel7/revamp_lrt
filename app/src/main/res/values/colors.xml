@@ -10,4 +10,7 @@
     <color name="toolbar_color">#691C16</color>
     <color name="navbar_color">#F8F8F8</color>
     <color name="app_name">#FFFFFF</color>
+    <color name="card_background">#20000000</color>
+    <color name="btn_baca">#803D00</color>
+
 </resources>
