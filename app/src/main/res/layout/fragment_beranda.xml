@@ -1,268 +1,357 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".BerandaFragment"
-    android:orientation="vertical">
-
-    <ImageView
-        android:id="@+id/banner"
-        android:layout_width="match_parent"
-        android:scaleType="fitXY"
-        android:layout_height="180dp"
-        android:src="@drawable/banner"
-        android:contentDescription="@string/img_banner"
-        />
+    android:orientation="vertical"
+    android:scrollbars="none">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginHorizontal="4dp"
-        android:orientation="horizontal"
-        android:weightSum="9">
+        android:orientation="vertical">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:paddingVertical="24dp"
-            android:layout_weight="3"
-            android:text="@string/menu_rute"
-            android:textAllCaps="false"
-            android:drawableTop="@drawable/ic_baseline_map_24"
-            android:fontFamily="@font/poppins_medium"
-            android:textSize="20sp"
-            android:drawableTint="@color/white"
-            android:textColor="@color/white"
-            android:layout_marginRight="8dp"
-            android:background="@drawable/buttonradius"
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="180dp"
+            android:src="@drawable/banner"
+            android:contentDescription="@string/img_banner"
             />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:paddingVertical="24dp"
-            android:layout_weight="3"
-            android:text="@string/menu_stasiun"
-            android:fontFamily="@font/poppins_medium"
-            android:textSize="20sp"
-            android:textAllCaps="false"
-            android:drawableTop="@drawable/ic_baseline_train_24"
-            android:drawableTint="@color/white"
-            android:textColor="@color/white"
-            android:background="@drawable/buttonradius"
-            android:layout_marginRight="8dp"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:paddingVertical="24dp"
-            android:layout_weight="3"
-            android:text="@string/menu_jadwal"
-            android:fontFamily="@font/poppins_medium"
-            android:textSize="20sp"
-            android:textAllCaps="false"
-            android:drawableTop="@drawable/ic_baseline_calendar_today_24"
-            android:drawableTint="@color/white"
-            android:textColor="@color/white"
-            android:background="@drawable/buttonradius"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="12dp"
-        android:layout_marginHorizontal="4dp"
-        >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="8dp"
+            android:orientation="horizontal"
+            android:weightSum="9">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="3"
+                android:background="@drawable/buttonpressed"
+                android:drawableTop="@drawable/ic_baseline_map_24"
+                android:drawableTint="@color/white"
                 android:fontFamily="@font/poppins_medium"
-                android:text="Berita"
-                android:textSize="16sp"
-                android:textColor="@color/black"
-                android:layout_weight="8"
-                />
+                android:paddingVertical="24dp"
+                android:text="@string/menu_rute"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_light"
-                android:text="Lainnya"
-                android:textSize="12sp"
-                android:textColor="@color/black"
-                android:layout_weight="2"
-                android:textAlignment="textEnd"
-                />
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="3"
+                android:background="@drawable/buttonpressed"
+                android:drawableTop="@drawable/ic_baseline_train_24"
+                android:drawableTint="@color/white"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingVertical="24dp"
+                android:text="@string/menu_stasiun"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="3"
+                android:background="@drawable/buttonpressed"
+                android:drawableTop="@drawable/ic_baseline_calendar_today_24"
+                android:drawableTint="@color/white"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingVertical="24dp"
+                android:text="@string/menu_jadwal"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
         </LinearLayout>
-        
-            <HorizontalScrollView
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="8dp"
+            >
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scrollbars="none">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-                <LinearLayout
+                <TextView
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/txt_berita"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="8"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="@string/btn_beritalain"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:textAlignment="textEnd"
+                    />
+
+            </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:scrollbars="none">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:elevation="2dp"
-                        android:layout_marginRight="8dp"
-                        app:cardCornerRadius="8dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="160dp"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:elevation="2dp"
+                            android:layout_marginEnd="8dp"
+                            app:cardCornerRadius="8dp">
 
-                            <ImageView
-                                android:layout_width="160dp"
-                                android:layout_height="120dp"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/berita1"/>
-
-                            <TextView
+                            <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="52dp"
-                                android:paddingHorizontal="4dp"
-                                android:textColor="@color/black"
-                                android:fontFamily="@font/poppins_regular"
-                                android:text="@string/judul_berita1"
-                                android:textSize="12sp"
-                                android:justificationMode="inter_word"/>
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
 
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="48dp"
-                                android:fontFamily="@font/poppins_semibold"
-                                android:text="@string/btn_baca"
-                                android:textColor="@color/white"
-                                android:background="@color/btn_baca"
-                                android:textSize="12sp"
-                                android:layout_marginTop="12dp"
-                                android:layout_marginBottom="8dp"
-                                android:layout_marginRight="8dp"
-                                android:layout_gravity="end"
-                                />
+                                <ImageView
+                                    android:layout_width="160dp"
+                                    android:layout_height="120dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/berita1"
+                                    android:contentDescription="@string/judul_berita1"/>
 
-                        </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:paddingHorizontal="4dp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="@string/judul_berita1"
+                                    android:textSize="12sp"
+                                    android:justificationMode="inter_word"/>
 
-                    </androidx.cardview.widget.CardView>
+                                <Button
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="48dp"
+                                    android:fontFamily="@font/poppins_semibold"
+                                    android:text="@string/btn_baca"
+                                    android:textColor="@color/white"
+                                    android:background="@drawable/buttonpressed"
+                                    android:textSize="12sp"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_gravity="end"
+                                    />
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:elevation="2dp"
-                        android:layout_marginRight="8dp"
-                        app:cardCornerRadius="8dp">
+                            </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="160dp"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:elevation="2dp"
+                            android:layout_marginEnd="8dp"
+                            app:cardCornerRadius="8dp">
 
-                            <ImageView
-                                android:layout_width="160dp"
-                                android:layout_height="120dp"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/berita2"/>
-
-                            <TextView
+                            <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="52dp"
-                                android:paddingHorizontal="4dp"
-                                android:textColor="@color/black"
-                                android:fontFamily="@font/poppins_regular"
-                                android:text="@string/judul_berita2"
-                                android:textSize="12sp"
-                                android:justificationMode="inter_word"/>
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
 
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="48dp"
-                                android:fontFamily="@font/poppins_semibold"
-                                android:text="@string/btn_baca"
-                                android:textColor="@color/white"
-                                android:background="@color/btn_baca"
-                                android:textSize="12sp"
-                                android:layout_marginTop="12dp"
-                                android:layout_marginBottom="8dp"
-                                android:layout_marginRight="8dp"
-                                android:layout_gravity="end"/>
+                                <ImageView
+                                    android:layout_width="160dp"
+                                    android:layout_height="120dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/berita2"
+                                    android:contentDescription="@string/judul_berita2"/>
 
-                        </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:paddingHorizontal="4dp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="@string/judul_berita2"
+                                    android:textSize="12sp"
+                                    android:justificationMode="inter_word"/>
 
-                    </androidx.cardview.widget.CardView>
+                                <Button
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="48dp"
+                                    android:fontFamily="@font/poppins_semibold"
+                                    android:text="@string/btn_baca"
+                                    android:textColor="@color/white"
+                                    android:background="@drawable/buttonpressed"
+                                    android:textSize="12sp"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_gravity="end"/>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="160dp"
-                        android:layout_height="wrap_content"
-                        android:elevation="2dp"
-                        android:layout_marginRight="8dp"
-                        app:cardCornerRadius="8dp">
+                            </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="160dp"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:elevation="2dp"
+                            android:layout_marginEnd="8dp"
+                            app:cardCornerRadius="8dp">
 
-                            <ImageView
-                                android:layout_width="160dp"
-                                android:layout_height="120dp"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/berita3"/>
-
-                            <TextView
+                            <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="52dp"
-                                android:paddingHorizontal="4dp"
-                                android:textColor="@color/black"
-                                android:fontFamily="@font/poppins_regular"
-                                android:text="@string/judul_berita3"
-                                android:textSize="12sp"
-                                android:justificationMode="inter_word"/>
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
 
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="48dp"
-                                android:fontFamily="@font/poppins_semibold"
-                                android:textSize="12sp"
-                                android:text="@string/btn_baca"
-                                android:textColor="@color/white"
-                                android:background="@color/btn_baca"
-                                android:layout_marginTop="12dp"
-                                android:layout_marginBottom="8dp"
-                                android:layout_marginRight="8dp"
-                                android:layout_gravity="end"/>
+                                <ImageView
+                                    android:layout_width="160dp"
+                                    android:layout_height="120dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/berita3"
+                                    android:contentDescription="@string/judul_berita3"/>
 
-                        </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:paddingHorizontal="4dp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="@string/judul_berita3"
+                                    android:textSize="12sp"
+                                    android:justificationMode="inter_word"/>
 
-                    </androidx.cardview.widget.CardView>
+                                <Button
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="48dp"
+                                    android:fontFamily="@font/poppins_semibold"
+                                    android:textSize="12sp"
+                                    android:text="@string/btn_baca"
+                                    android:textColor="@color/white"
+                                    android:background="@drawable/buttonpressed"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_gravity="end"/>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
 
 
-                </LinearLayout>
+                    </LinearLayout>
 
-            </HorizontalScrollView>
+                </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="8dp"
+            >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/txt_promosi"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    />
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageButton
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/promosi1"
+                            android:scaleType="fitXY"
+                            android:background="@color/white"
+                            android:layout_marginEnd="8dp"
+                            android:contentDescription="@string/txt_promosi"/>
+
+                        <ImageButton
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/promosi2"
+                            android:scaleType="fitXY"
+                            android:background="@color/white"
+                            android:layout_marginEnd="8dp"
+                            android:contentDescription="@string/txt_promosi"/>
+
+                        <ImageButton
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/promosi3"
+                            android:scaleType="fitXY"
+                            android:background="@color/white"
+                            android:layout_marginEnd="8dp"
+                            android:contentDescription="@string/txt_promosi"/>
+
+                        <ImageButton
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/promosi4"
+                            android:scaleType="fitXY"
+                            android:background="@color/white"
+                            android:contentDescription="@string/txt_promosi"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banner_bantuan"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/menu_hubungi"
+            android:background="@color/white"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginBottom="16dp"
+            />
 
     </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-    />
-</LinearLayout>
+</ScrollView>

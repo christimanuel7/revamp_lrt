@@ -51,21 +51,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch(item.getItemId()){
             case R.id.menu_beranda:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new BerandaFragment()).commit();
+                toolbar.setTitle("LRT JAKARTA");
                 break;
             case R.id.menu_rute:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new RuteFragment()).commit();
+                toolbar.setTitle("Rute");
                 break;
             case R.id.menu_stasiun:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new StasiunFragment()).commit();
+                toolbar.setTitle("Stasiun");
                 break;
             case R.id.menu_jadwal:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new JadwalFragment()).commit();
+                toolbar.setTitle("Jadwal");
                 break;
             case R.id.menu_tentang:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new TentangFragment()).commit();
+                toolbar.setTitle("Tentang Kami");
                 break;
             case R.id.menu_hubungi:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HubungiFragment()).commit();
+                toolbar.setTitle("Hubungi Kami");
                 break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);

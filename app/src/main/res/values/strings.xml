@@ -9,6 +9,10 @@
     <string name="menu_tentang">Tentang Kami</string>
     <string name="menu_hubungi">Hubungi Kami</string>
     <string name="informasi">Informasi</string>
+    <string name="txt_berita">Berita</string>
+    <string name="txt_promosi">Promosi</string>
+
+    <string name="btn_beritalain">Lainnya</string>
 
     <string name="navigation_open">Open Navigation drawer</string>
     <string name="navigation_close">Close Navigation drawer</string>
