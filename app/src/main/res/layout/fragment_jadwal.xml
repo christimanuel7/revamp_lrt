@@ -3,15 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".JadwalFragment">
+    tools:context=".JadwalFragment"
+    android:layout_marginTop="16dp">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="JADWAL"
-        android:textSize="60sp"
-        android:gravity="center"
+        android:id="@+id/txt_jadwal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_rute"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
         android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/img_jadwal1"
+        android:layout_width="400dp"
+        android:layout_height="240dp"
+        android:layout_marginHorizontal="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jadwal1"
+        android:layout_below="@id/txt_jadwal1"/>
+
+    <TextView
+        android:id="@+id/txt_jadwal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/txt_rute2"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/img_jadwal1"/>
+
+    <ImageView
+        android:id="@+id/img_jadwal2"
+        android:layout_width="400dp"
+        android:layout_height="240dp"
+        android:layout_marginHorizontal="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jadwal2"
+        android:layout_below="@id/txt_jadwal2"/>
 
 </RelativeLayout>

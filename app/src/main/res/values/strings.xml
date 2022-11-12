@@ -25,4 +25,8 @@
     <string name="judul_berita3">Kementerian PPPA Apresiasi DKI Wujudkan Kelurahan Ramah Perempuan</string>
 
     <string name="btn_baca">BACA</string>
+
+<!--    RUTE-->
+    <string name="txt_rute">Pegangsaan - Velodrome</string>
+    <string name="txt_rute2">Velodrome - Pegangsaan</string>
 </resources>
