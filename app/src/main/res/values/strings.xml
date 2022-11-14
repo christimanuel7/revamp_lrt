@@ -26,7 +26,28 @@
 
     <string name="btn_baca">BACA</string>
 
-<!--    RUTE-->
+    <string name="promosi">Promosi</string>
+
+    <!--    RUTE-->
+    <string name="rute">Rute Perjalanan LRT Jakarta</string>
     <string name="txt_rute">Pegangsaan - Velodrome</string>
     <string name="txt_rute2">Velodrome - Pegangsaan</string>
+
+    <!--    STASIUN-->
+    <string name="judul_stasiun">Judul Stasiun</string>
+    <string name="alamat_stasiun">Alamat Stasiun</string>
+
+    <string name="judul_stasiun1">Stasiun Pegangsaan Dua</string>
+    <string name="judul_stasiun2">Stasiun Boulevard Utara</string>
+    <string name="judul_stasiun3">Stasiun Boulevard Selatan</string>
+    <string name="judul_stasiun4">Stasiun Pulomas</string>
+    <string name="judul_stasiun5">Stasiun Equetrian</string>
+    <string name="judul_stasiun6">Stasiun Velodrome</string>
+
+    <string name="alamat_stasiun1">Jalan Gading Grande, Pegangsaan Dua, Kelapa Gading - Jakarta Utara</string>
+    <string name="alamat_stasiun2">Jalan Boulevard Raya</string>
+    <string name="alamat_stasiun3">Stasiun Boulevard Selatan</string>
+    <string name="alamat_stasiun4">Jalan Kayu Putih Raya</string>
+    <string name="alamat_stasiun5">Jalan Kayu Putih Raya</string>
+    <string name="alamat_stasiun6">Jalan Pemuda</string>
 </resources>

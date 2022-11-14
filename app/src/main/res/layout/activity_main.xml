@@ -32,10 +32,11 @@
             android:layout_height="wrap_content"
             app:contentInsetStartWithNavigation="0dp"
             android:background="@color/toolbar_color"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            app:title="@string/toolbar_name"
+            android:theme="@style/AppTheme"
             app:titleTextAppearance="@style/PoppinsItalicTextViewStyle"
-            app:logo="@drawable/logotoolbar"/>
+            app:logo="@drawable/logotoolbar"
+            app:contentInsetEndWithActions="0dp"
+            />
 
         <FrameLayout
             android:layout_width="match_parent"
