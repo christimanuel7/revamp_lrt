@@ -1,17 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TentangFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="TENTANG"
-        android:textSize="60sp"
-        android:gravity="center"
-        android:textColor="@color/black"/>
+        android:layout_height="wrap_content">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_marginTop="32dp"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo_lrt"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/Visi"
+            android:paddingVertical="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgLogo"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/visi"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:background="@color/toolbar_color"/>
+
+        <TextView
+            android:id="@+id/txt_visi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:layout_below="@id/Visi"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:text="@string/txt_visi"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/Misi"
+            android:paddingVertical="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_visi"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/misi"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:background="@color/toolbar_color"/>
+
+      <TableLayout
+          android:id="@+id/misi"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/Misi"
+          android:layout_marginHorizontal="16dp"
+          android:layout_marginTop="16dp">
+
+          <TableRow>
+              <TextView
+                  android:layout_column="1"
+                  android:text="1. "
+                  android:fontFamily="@font/poppins_light"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"/>
+              <TextView
+                  android:layout_column="2"
+                  android:layout_width="wrap_content"
+                  android:text="@string/misi1"
+                  android:fontFamily="@font/poppins_light"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  android:justificationMode="inter_word"/>
+          </TableRow>
+          <TableRow>
+              <TextView
+                  android:layout_column="1"
+                  android:text="2. "
+                  android:fontFamily="@font/poppins_light"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"/>
+              <TextView
+                  android:layout_column="2"
+                  android:layout_width="wrap_content"
+                  android:text="@string/misi2"
+                  android:fontFamily="@font/poppins_light"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  android:justificationMode="inter_word"/>
+          </TableRow>
+          <TableRow>
+              <TextView
+                  android:layout_column="1"
+                  android:text="3. "
+                  android:fontFamily="@font/poppins_light"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"/>
+              <TextView
+                  android:layout_column="2"
+                  android:layout_width="wrap_content"
+                  android:text="@string/misi3"
+                  android:fontFamily="@font/poppins_light"
+                  android:textSize="16sp"
+                  android:textColor="@color/black"
+                  android:justificationMode="inter_word"/>
+          </TableRow>
+      </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

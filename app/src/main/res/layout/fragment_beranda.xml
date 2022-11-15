@@ -6,7 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".BerandaFragment"
     android:orientation="vertical"
-    android:scrollbars="none">
+    android:scrollbars="none"
+    android:overScrollMode="never">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,6 +32,7 @@
             android:weightSum="9">
 
             <Button
+                android:id="@+id/btn_rute"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -47,6 +49,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_stasiun"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -63,6 +66,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_jadwal"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -89,7 +93,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="@string/txt_berita"
                     android:textSize="16sp"
@@ -100,7 +104,8 @@
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scrollbars="none">
+                    android:scrollbars="none"
+                    android:overScrollMode="never">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -137,6 +142,7 @@
                                     android:justificationMode="inter_word"/>
 
                                 <Button
+                                    android:id="@+id/btn_berita1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="48dp"
                                     android:fontFamily="@font/poppins_semibold"
@@ -184,6 +190,7 @@
                                     android:justificationMode="inter_word"/>
 
                                 <Button
+                                    android:id="@+id/btn_berita2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="48dp"
                                     android:fontFamily="@font/poppins_semibold"
@@ -230,6 +237,54 @@
                                     android:justificationMode="inter_word"/>
 
                                 <Button
+                                    android:id="@+id/btn_berita3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="48dp"
+                                    android:fontFamily="@font/poppins_semibold"
+                                    android:textSize="12sp"
+                                    android:text="@string/btn_baca"
+                                    android:textColor="@color/white"
+                                    android:background="@drawable/buttonpressed"
+                                    android:layout_marginTop="12dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_gravity="end"/>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="160dp"
+                            android:layout_height="wrap_content"
+                            android:elevation="2dp"
+                            android:layout_marginEnd="8dp"
+                            app:cardCornerRadius="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="160dp"
+                                    android:layout_height="120dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/berita4"
+                                    android:contentDescription="@string/judul_berita3"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="52dp"
+                                    android:paddingHorizontal="4dp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_regular"
+                                    android:text="@string/judul_berita4"
+                                    android:textSize="12sp"
+                                    android:justificationMode="inter_word"/>
+
+                                <Button
+                                    android:id="@+id/btn_berita4"
                                     android:layout_width="wrap_content"
                                     android:layout_height="48dp"
                                     android:fontFamily="@font/poppins_semibold"

@@ -10,23 +10,23 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class WebpageActivity2 extends AppCompatActivity {
+public class PromosiActivity4 extends AppCompatActivity {
     WebView webView;
     WebSettings webSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_webpage2);
+        setContentView(R.layout.activity_promosi4);
 
-        webView=(WebView) findViewById(R.id.webview);
+        webView= findViewById(R.id.webview);
         webSettings=webView.getSettings();
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.instagram.com/p/CkUqzG1pToO/");
+        webView.loadUrl(getString(R.string.link_promosi4));
         webSettings.setDomStorageEnabled(true);
         webSettings.setJavaScriptEnabled(true);
 
-        ImageButton btnClose=(ImageButton) findViewById(R.id.btn_close);
+        ImageButton btnClose= findViewById(R.id.btn_close);
         btnClose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

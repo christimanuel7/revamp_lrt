@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WebpageActivity3"
+    tools:context=".BeritaActivity"
     android:orientation="vertical">
 
     <LinearLayout
@@ -12,7 +11,7 @@
         android:layout_height="wrap_content"
         android:background="@color/toolbar_color"
         android:orientation="horizontal"
-        android:id="@+id/halaman_promosi"
+        android:id="@+id/halaman_berita"
         android:paddingHorizontal="8dp">
 
         <ImageButton
@@ -26,10 +25,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="8dp"
 
             android:fontFamily="@font/poppins_regular"
-            android:text="@string/promosi"
+            android:text="@string/berita"
             android:textSize="20sp"
             android:textColor="@color/white"
             android:gravity="center"/>
@@ -39,6 +38,6 @@
         android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/halaman_promosi"/>
+        android:layout_below="@id/halaman_berita"/>
 
 </RelativeLayout>

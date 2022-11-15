@@ -1,5 +1,7 @@
 package com.example.tugasindividu3;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,21 +10,20 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageButton;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class BeritaActivity extends AppCompatActivity {
 
-public class WebpageActivity4 extends AppCompatActivity {
     WebView webView;
     WebSettings webSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_webpage4);
+        setContentView(R.layout.activity_berita);
 
         webView=(WebView) findViewById(R.id.webview);
         webSettings=webView.getSettings();
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.instagram.com/p/CkaqXpUJr6u/");
+        webView.loadUrl(getString(R.string.link_berita1));
         webSettings.setDomStorageEnabled(true);
         webSettings.setJavaScriptEnabled(true);
 

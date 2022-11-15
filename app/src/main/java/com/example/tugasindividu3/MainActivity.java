@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.menu_tentang:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new TentangFragment()).commit();
-                toolbar.setTitle("Tentang Kami");
+                toolbar.setTitle("Tentang LRT Jakarta");
                 break;
             case R.id.menu_hubungi:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HubungiFragment()).commit();

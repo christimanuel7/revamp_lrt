@@ -16,7 +16,6 @@ import java.util.ArrayList;
 
 public class StasiunFragment extends Fragment {
 
-    // TODO: Rename and change types of parameters
     private ArrayList<Stasiun> StasiunArrayList;
     private String[] stasiunHeading;
     private String[] stasiunAlamat;
@@ -69,7 +68,7 @@ public class StasiunFragment extends Fragment {
                 R.drawable.berita2,
                 R.drawable.berita3,
                 R.drawable.berita4,
-                R.drawable.berita5,
+                R.drawable.berita4,
                 R.drawable.berita1,
         };
 

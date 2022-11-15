@@ -16,17 +16,31 @@
 
     <string name="navigation_open">Open Navigation drawer</string>
     <string name="navigation_close">Close Navigation drawer</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="img_banner">Banner Promosi</string>
 
+<!--    BERITA-->
+    <string name="berita">Berita</string>
     <string name="judul_berita1">Kementerian PPPA-DKI Luncurkan Pusat Panggilan CARLA</string>
+    <string name="link_berita1">https://www.lrtjakarta.co.id/kementerian_pppadki_luncurkan_pusat_panggilan_carla_berita567.html</string>
+
     <string name="judul_berita2">LRT Jakarta Canangkan Komitmen Transportasi Ramah Perempuan dan Anak</string>
+    <string name="link_berita2">https://www.lrtjakarta.co.id/lrt_jakarta_canangkan_komitmen_transportasi_ramah_perempuan_dan_anak_berita568.html</string>
+
     <string name="judul_berita3">Kementerian PPPA Apresiasi DKI Wujudkan Kelurahan Ramah Perempuan</string>
+    <string name="link_berita3">https://www.lrtjakarta.co.id/kementerian_pppa_apresiasi_dki_wujudkan_kelurahan_ramah_perempuan_berita569.html</string>
+
+    <string name="judul_berita4">Pembangunan LRT Jakarta Fase 2 Kelapa Gading-JIS Segera Diwujudkan</string>
+    <string name="link_berita4">https://www.lrtjakarta.co.id/pembangunan_lrt_jakarta_fase_kelapa_gadingjis_segera_diwujudkan_berita565.html</string>
 
     <string name="btn_baca">BACA</string>
 
     <string name="promosi">Promosi</string>
+    <string name="link_promosi1">https://www.instagram.com/p/CkdTK2QpHEE/</string>
+    <string name="link_promosi2">https://www.instagram.com/p/CkUqzG1pToO/</string>
+    <string name="link_promosi3">https://www.instagram.com/p/CipdDolpLRK/</string>
+    <string name="link_promosi4">https://www.instagram.com/p/CkaqXpUJr6u/</string>
 
     <!--    RUTE-->
     <string name="rute">Rute Perjalanan LRT Jakarta</string>
@@ -38,16 +52,34 @@
     <string name="alamat_stasiun">Alamat Stasiun</string>
 
     <string name="judul_stasiun1">Stasiun Pegangsaan Dua</string>
-    <string name="judul_stasiun2">Stasiun Boulevard Utara</string>
-    <string name="judul_stasiun3">Stasiun Boulevard Selatan</string>
-    <string name="judul_stasiun4">Stasiun Pulomas</string>
-    <string name="judul_stasiun5">Stasiun Equetrian</string>
-    <string name="judul_stasiun6">Stasiun Velodrome</string>
-
     <string name="alamat_stasiun1">Jalan Gading Grande, Pegangsaan Dua, Kelapa Gading - Jakarta Utara</string>
+
+    <string name="judul_stasiun2">Stasiun Boulevard Utara</string>
     <string name="alamat_stasiun2">Jalan Boulevard Raya</string>
+
+    <string name="judul_stasiun3">Stasiun Boulevard Selatan</string>
     <string name="alamat_stasiun3">Stasiun Boulevard Selatan</string>
+
+    <string name="judul_stasiun4">Stasiun Pulomas</string>
     <string name="alamat_stasiun4">Jalan Kayu Putih Raya</string>
+
+    <string name="judul_stasiun5">Stasiun Equetrian</string>
     <string name="alamat_stasiun5">Jalan Kayu Putih Raya</string>
+
+    <string name="judul_stasiun6">Stasiun Velodrome</string>
     <string name="alamat_stasiun6">Jalan Pemuda</string>
+
+<!--    JADWAL-->
+    <string name="jadwal">Jadwal Keberangkatan</string>
+    <string name="jadwal1">Stasiun Pegangsaan Dua - Stasiun Velodrome</string>
+    <string name="jadwal2">Stasiun Velodrome - Stasiun Pegangsaan Dua</string>
+
+<!--    TENTANG-->
+    <string name="visi">VISI</string>
+    <string name="txt_visi">Menjadi Solusi Mobilitas Publik Terbaik di Indonesia</string>
+
+    <string name="misi">MISI</string>
+    <string name="misi1">Menyediakan layanan transportasi publik warga Jakarta yang aman dan nyaman</string>
+    <string name="misi2">Mengembangkan jaringan transportasi publik yang modern dan terintegrasi</string>
+    <string name="misi3">Membangun reputasi perusahaan dengan pengembangan sumber daya manusia yang LRTJ</string>
 </resources>
