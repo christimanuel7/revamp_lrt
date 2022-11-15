@@ -46,7 +46,7 @@ public class StasiunAdapter extends RecyclerView.Adapter<StasiunAdapter.StasiunV
 
     public static class StasiunViewHolder extends RecyclerView.ViewHolder{
 
-        ImageView titleImage;
+        ImageView titleImage,mapImage;
         TextView txtStasiun,txtAlamat;
 
         public StasiunViewHolder(@NonNull View itemView) {

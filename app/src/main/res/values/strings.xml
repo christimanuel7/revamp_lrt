@@ -20,7 +20,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="img_banner">Banner Promosi</string>
 
-<!--    BERITA-->
+    <!--    BERITA-->
     <string name="berita">Berita</string>
     <string name="judul_berita1">Kementerian PPPA-DKI Luncurkan Pusat Panggilan CARLA</string>
     <string name="link_berita1">https://www.lrtjakarta.co.id/kementerian_pppadki_luncurkan_pusat_panggilan_carla_berita567.html</string>
@@ -50,31 +50,32 @@
     <!--    STASIUN-->
     <string name="judul_stasiun">Judul Stasiun</string>
     <string name="alamat_stasiun">Alamat Stasiun</string>
+    <string name="peta">Lihat Peta</string>
 
     <string name="judul_stasiun1">Stasiun Pegangsaan Dua</string>
-    <string name="alamat_stasiun1">Jalan Gading Grande, Pegangsaan Dua, Kelapa Gading - Jakarta Utara</string>
+    <string name="alamat_stasiun1">Jalan Gading Grande, Pegangsaan Dua, Kec. Kelapa Gading, Kota Jakarta Utara</string>
 
     <string name="judul_stasiun2">Stasiun Boulevard Utara</string>
     <string name="alamat_stasiun2">Jalan Boulevard Raya</string>
 
     <string name="judul_stasiun3">Stasiun Boulevard Selatan</string>
-    <string name="alamat_stasiun3">Stasiun Boulevard Selatan</string>
+    <string name="alamat_stasiun3">Jalan Boulevard Raya</string>
 
     <string name="judul_stasiun4">Stasiun Pulomas</string>
-    <string name="alamat_stasiun4">Jalan Kayu Putih Raya</string>
+    <string name="alamat_stasiun4">Jalan Kayu Putih Raya, RT.9/RW.8, Pulo Gadung, Kec. Pulo Gadung, Kota Jakarta Timur</string>
 
     <string name="judul_stasiun5">Stasiun Equetrian</string>
-    <string name="alamat_stasiun5">Jalan Kayu Putih Raya</string>
+    <string name="alamat_stasiun5">Jl. Kayu Putih Raya No.9, RT.9/RW.7, Pulo Gadung, Kec. Pulo Gadung, Kota Jakarta Timur</string>
 
-    <string name="judul_stasiun6">Stasiun Velodrome</string>
+    <string name="judul_stasiun6">Stasiun Velod rome</string>
     <string name="alamat_stasiun6">Jalan Pemuda</string>
 
-<!--    JADWAL-->
+    <!--    JADWAL-->
     <string name="jadwal">Jadwal Keberangkatan</string>
     <string name="jadwal1">Stasiun Pegangsaan Dua - Stasiun Velodrome</string>
     <string name="jadwal2">Stasiun Velodrome - Stasiun Pegangsaan Dua</string>
 
-<!--    TENTANG-->
+    <!--    TENTANG-->
     <string name="visi">VISI</string>
     <string name="txt_visi">Menjadi Solusi Mobilitas Publik Terbaik di Indonesia</string>
 
@@ -104,5 +105,19 @@
     <string name="filosofi1">Elemen logo membentuk 3 garis yang secara keseluruhan merupakan representasi bentuk kereta api menggambarkan LRT Jakarta yang bergerak maju dan progresif di bidang perkeretaapian.</string>
     <string name="filosofi2">Warna merah terinspirasi oleh Perusahaan Holding Jakpro dengan warna Dominan Merah sebagai corporate color nya dan mencerminkan keuletan, ketegasan serta keberanian dalam menghadapi berbagai macam kesulitan.</string>
     <string name="filosofi3">Warna emas menunjukan prestasi, kesuksesan, kemewahan, kemenangan dan kemakmuran.</string>
+
+<!--    HUBUNGI KAMI-->
+    <string name="bantuan">Kontak Kami</string>
+    <string name="facebook">Facebook</string>
+    <string name="link_facebook">https://www.facebook.com/lrtjkt/</string>
+
+    <string name="twitter">Twitter</string>
+    <string name="link_twitter">https://twitter.com/lrtjkt?lang=en</string>
+
+    <string name="instagram">Instagram</string>
+    <string name="link_instagram">https://www.instagram.com/lrtjkt/</string>
+
+    <string name="telepon">Call Center</string>
+
 
 </resources>

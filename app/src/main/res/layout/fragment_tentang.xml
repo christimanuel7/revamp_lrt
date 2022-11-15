@@ -48,64 +48,89 @@
             android:textColor="@color/white"
             android:background="@color/toolbar_color"/>
 
-      <TableLayout
+      <LinearLayout
           android:id="@+id/txt_misi"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_below="@id/Misi"
           android:layout_marginHorizontal="16dp"
           android:layout_marginVertical="12dp"
-          android:fitsSystemWindows="true">
+          android:orientation="vertical">
 
-          <TableRow>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
               <TextView
-                  android:layout_column="1"
+                  android:layout_height="wrap_content"
+                  android:layout_width="12dp"
+                  android:fontFamily="@font/poppins_light"
+                  android:justificationMode="inter_word"
                   android:text="@string/nomor1"
-                  android:fontFamily="@font/poppins_light"
-                  android:textSize="14sp"
-                  android:textColor="@color/black"/>
+                  android:textColor="@color/black"
+                  android:textSize="14sp" />
+
               <TextView
-                  android:layout_column="2"
-                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:fontFamily="@font/poppins_light"
+                  android:justificationMode="inter_word"
                   android:text="@string/misi1"
-                  android:fontFamily="@font/poppins_light"
-                  android:textSize="14sp"
                   android:textColor="@color/black"
-                  android:justificationMode="inter_word"/>
-          </TableRow>
-          <TableRow>
+                  android:textSize="14sp" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
               <TextView
-                  android:layout_column="1"
+                  android:layout_height="wrap_content"
+                  android:layout_width="12dp"
+                  android:fontFamily="@font/poppins_light"
+                  android:justificationMode="inter_word"
                   android:text="@string/nomor2"
-                  android:fontFamily="@font/poppins_light"
-                  android:textSize="14sp"
-                  android:textColor="@color/black"/>
+                  android:textColor="@color/black"
+                  android:textSize="14sp" />
+
               <TextView
-                  android:layout_column="2"
-                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:fontFamily="@font/poppins_light"
+                  android:justificationMode="inter_word"
                   android:text="@string/misi2"
-                  android:fontFamily="@font/poppins_light"
-                  android:textSize="14sp"
                   android:textColor="@color/black"
-                  android:justificationMode="inter_word"/>
-          </TableRow>
-          <TableRow>
+                  android:textSize="14sp" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
               <TextView
-                  android:layout_column="1"
+                  android:layout_height="wrap_content"
+                  android:layout_width="12dp"
+                  android:fontFamily="@font/poppins_light"
+                  android:justificationMode="inter_word"
                   android:text="@string/nomor3"
-                  android:fontFamily="@font/poppins_light"
-                  android:textSize="14sp"
-                  android:textColor="@color/black"/>
-              <TextView
-                  android:layout_column="2"
-                  android:layout_width="wrap_content"
-                  android:text="@string/misi3"
-                  android:fontFamily="@font/poppins_light"
-                  android:textSize="14sp"
                   android:textColor="@color/black"
-                  android:justificationMode="inter_word"/>
-          </TableRow>
-      </TableLayout>
+                  android:textSize="14sp" />
+
+              <TextView
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:fontFamily="@font/poppins_light"
+                  android:justificationMode="inter_word"
+                  android:text="@string/misi3"
+                  android:textColor="@color/black"
+                  android:textSize="14sp" />
+          </LinearLayout>
+
+
+      </LinearLayout>
 
      <TextView
         android:id="@+id/nilai"
@@ -226,64 +251,89 @@
             android:scaleType="fitXY"
             android:contentDescription="@string/app_name"/>
 
-        <TableLayout
-            android:id="@+id/txt_filosofi_logo"
+        <LinearLayout
+            android:id="@+id/txt_filosofi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/imgLogo"
             android:layout_marginHorizontal="16dp"
-            android:layout_marginVertical="14dp">
+            android:layout_marginVertical="16dp"
+            android:orientation="vertical">
 
-            <TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
                 <TextView
-                    android:layout_column="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="12dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:justificationMode="inter_word"
                     android:text="@string/nomor1"
-                    android:fontFamily="@font/poppins_light"
-                    android:textSize="12sp"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_column="2"
-                    android:layout_width="wrap_content"
-                    android:text="@string/filosofi1"
-                    android:fontFamily="@font/poppins_light"
-                    android:textSize="14sp"
                     android:textColor="@color/black"
-                    android:justificationMode="inter_word"/>
-            </TableRow>
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="@string/nomor2"
-                    android:fontFamily="@font/poppins_light"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_column="2"
-                    android:layout_width="wrap_content"
-                    android:text="@string/filosofi2"
-                    android:fontFamily="@font/poppins_light"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:justificationMode="inter_word"/>
-            </TableRow>
-            <TableRow>
-                <TextView
-                    android:layout_column="1"
-                    android:text="@string/nomor3"
-                    android:fontFamily="@font/poppins_light"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_column="2"
-                    android:layout_width="wrap_content"
-                    android:text="@string/filosofi3"
-                    android:fontFamily="@font/poppins_light"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:justificationMode="inter_word"/>
-            </TableRow>
+                    android:textSize="14sp" />
 
-        </TableLayout>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/poppins_light"
+                    android:justificationMode="inter_word"
+                    android:text="@string/filosofi1"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="12dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:justificationMode="inter_word"
+                    android:text="@string/nomor2"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/poppins_light"
+                    android:justificationMode="inter_word"
+                    android:text="@string/filosofi2"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="12dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:justificationMode="inter_word"
+                    android:text="@string/nomor3"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/poppins_light"
+                    android:justificationMode="inter_word"
+                    android:text="@string/filosofi3"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
 
     </RelativeLayout>
 

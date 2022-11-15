@@ -64,12 +64,12 @@ public class StasiunFragment extends Fragment {
         };
 
         imageResourceID=new int[]{
-                R.drawable.berita1,
-                R.drawable.berita2,
-                R.drawable.berita3,
-                R.drawable.berita4,
-                R.drawable.berita4,
-                R.drawable.berita1,
+                R.drawable.stasiun_pd,
+                R.drawable.stasiun_bu,
+                R.drawable.stasiun_bs,
+                R.drawable.stasiun_pl,
+                R.drawable.stasiun_eq,
+                R.drawable.stasiun_vd,
         };
 
         for(int i=0;i<stasiunHeading.length;i++){
