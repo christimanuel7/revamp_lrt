@@ -79,7 +79,30 @@
     <string name="txt_visi">Menjadi Solusi Mobilitas Publik Terbaik di Indonesia</string>
 
     <string name="misi">MISI</string>
+    <string name="nomor1">1.</string>
+    <string name="nomor2">2.</string>
+    <string name="nomor3">3.</string>
     <string name="misi1">Menyediakan layanan transportasi publik warga Jakarta yang aman dan nyaman</string>
     <string name="misi2">Mengembangkan jaringan transportasi publik yang modern dan terintegrasi</string>
     <string name="misi3">Membangun reputasi perusahaan dengan pengembangan sumber daya manusia yang LRTJ</string>
+
+    <string name="nilai">NILAI-NILAI PERUSAHAAN</string>
+
+    <string name="nilai1">LINCAH (Agility)</string>
+    <string name="txt_nilai1">Competent, Innovative, Modern, Passion, Emotional Inteligence (EQ)</string>
+
+    <string name="nilai2">RAMAH (Service)</string>
+    <string name="txt_nilai2">Alert, Simple, Sincere, Hospitable</string>
+
+    <string name="nilai3">TERPERCAYA (Reliability)</string>
+    <string name="txt_nilai3">Committed, Supportive</string>
+
+    <string name="nilai4">JUJUR (Integrity)</string>
+    <string name="txt_nilai4">Compliance, Trusted</string>
+
+    <string name="logo">FILOSOFI LOGO</string>
+    <string name="filosofi1">Elemen logo membentuk 3 garis yang secara keseluruhan merupakan representasi bentuk kereta api menggambarkan LRT Jakarta yang bergerak maju dan progresif di bidang perkeretaapian.</string>
+    <string name="filosofi2">Warna merah terinspirasi oleh Perusahaan Holding Jakpro dengan warna Dominan Merah sebagai corporate color nya dan mencerminkan keuletan, ketegasan serta keberanian dalam menghadapi berbagai macam kesulitan.</string>
+    <string name="filosofi3">Warna emas menunjukan prestasi, kesuksesan, kemewahan, kemenangan dan kemakmuran.</string>
+
 </resources>
